@@ -1,0 +1,23 @@
+.mySwiper{
+    height: 600px;
+    padding: 30px;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    position: static;
+}
+.swiper-button-next{
+    margin-left: 20px
+}
+.slide-arrow{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .mySwiper{
+        height: 500px;
+        width: 400px;
+        text-align: center;
+        margin-left: 70px;
+    }
+}

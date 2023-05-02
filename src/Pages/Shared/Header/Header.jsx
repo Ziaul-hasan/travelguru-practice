@@ -7,7 +7,7 @@ const Header = () => {
     const [open, setOpen] = useState(false)
     return (
         <div className='p-4 md:px-28 md:py-6 flex justify-between items-center'>
-            <div className='flex items-center'>
+            <div className='flex items-center space-x-4'>
                 <img className='w-20 h-16 md:w-28 md:h-24' src={logo} alt="" />
                 <h3 className='text-xl md:text-3xl font-bold'>Tour-Trips Holidays</h3>
             </div>
